@@ -12,6 +12,8 @@
 		69BE820C2542DBD200EBECC3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BE820B2542DBD200EBECC3 /* GameViewController.swift */; };
 		69BE820F2542DBD200EBECC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69BE820D2542DBD200EBECC3 /* Main.storyboard */; };
 		69BE82112542DBD300EBECC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69BE82102542DBD300EBECC3 /* Assets.xcassets */; };
+		69BE82212543109E00EBECC3 /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 69BE821F2543109E00EBECC3 /* Screenshot01.png */; };
+		69BE82222543109E00EBECC3 /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 69BE82202543109E00EBECC3 /* Screenshot02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		69BE820E2542DBD200EBECC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69BE82102542DBD300EBECC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69BE82122542DBD300EBECC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69BE821F2543109E00EBECC3 /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		69BE82202543109E00EBECC3 /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		69BE82062542DBD200EBECC3 /* My Game */ = {
 			isa = PBXGroup;
 			children = (
+				69BE8224254310A700EBECC3 /* Screenshots */,
 				69BE82072542DBD200EBECC3 /* AppDelegate.swift */,
 				69BE82092542DBD200EBECC3 /* art.scnassets */,
 				69BE820B2542DBD200EBECC3 /* GameViewController.swift */,
@@ -62,6 +67,15 @@
 				69BE82122542DBD300EBECC3 /* Info.plist */,
 			);
 			path = "My Game";
+			sourceTree = "<group>";
+		};
+		69BE8224254310A700EBECC3 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				69BE821F2543109E00EBECC3 /* Screenshot01.png */,
+				69BE82202543109E00EBECC3 /* Screenshot02.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +137,8 @@
 			files = (
 				69BE820A2542DBD200EBECC3 /* art.scnassets in Resources */,
 				69BE82112542DBD300EBECC3 /* Assets.xcassets in Resources */,
+				69BE82212543109E00EBECC3 /* Screenshot01.png in Resources */,
+				69BE82222543109E00EBECC3 /* Screenshot02.png in Resources */,
 				69BE820F2542DBD200EBECC3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8J39KF9DMS;
 				INFOPLIST_FILE = "My Game/Info.plist";
@@ -284,6 +301,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.m-d-a.My-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -294,6 +312,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8J39KF9DMS;
 				INFOPLIST_FILE = "My Game/Info.plist";
@@ -304,6 +323,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.m-d-a.My-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
